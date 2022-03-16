@@ -1,0 +1,302 @@
+.seventh_section {
+    width: 100%;
+    height: 576px;
+    background: #382459;
+    display: flex;
+    justify-content: space-between;
+    z-index: 11;
+}
+
+.seventh_section_first_image {
+    margin-left: 61px;
+    margin-top: 23px;
+    width: 538.59px;
+    height: 538.59px;
+}
+
+.seventh_section_first_paragraph {
+    width: 402.11px;
+    height: 100.04px;
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 47px;
+    line-height: 52px;
+    /* or 111% */
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    /* bootcamps/CB-face */
+    color: #30FFCD;
+    margin-bottom: 26.55px;
+    margin-top: 152.34px;
+}
+
+.seventh_section_second_paragraph {
+    width: 480.2px;
+    height: 70.03px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 23px;
+    color: #FFFFFF;
+    margin-bottom: 43.03px;
+}
+
+.seventh_section_button {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 13.2857px 29.5238px;
+    width: 224px;
+    height: 48px;
+    background: #FF1DC0;
+    border-radius: 48px;
+    margin-bottom: 136px;
+}
+
+.seventh_section_third_paragraph {
+    width: 162.38px;
+    height: 17.71px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15.0508px;
+    line-height: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.seventh_section_second_div {
+    margin-left: -81.7px;
+    margin-right: 200.91px;
+}
+
+.eighth_section {
+    display: flex;
+    justify-content: space-between;
+    height: 291.34px;
+}
+
+.first_footer_div {
+    display: flex;
+    flex-direction: column;
+    margin-top: 89.47px;
+    margin-left: 120px;
+    margin-right: 111px;
+}
+
+.footer_first_part_first_image {
+    width: 188px;
+    height: 43px;
+    margin-bottom: 48.58px;
+}
+
+.footer_first_part_second_image {
+    width: 19.02px;
+    height: 19.02px;
+}
+
+.second_footer_div {
+    margin-top: 85.36px;
+}
+
+.footer_first_p_teg {
+    width: 456px;
+    height: 80px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    /* or 150% */
+    /* bootcamps/CB-hand */
+    color: #382459;
+    margin-bottom: 13.99px;
+}
+
+.footer_second_p_teg {
+    width: 383.17px;
+    height: 24px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height, or 150% */
+    /* bootcamps/CB-hand */
+    color: #382459;
+}
+
+.third_footer_div {
+    display: flex;
+    flex-direction: column;
+    margin-top: 88px;
+}
+
+.footer_third_part_first_image {
+    width: 96.48px;
+    height: 16px;
+    margin-bottom: 24px;
+}
+
+.footer_third_part_second_image {
+    width: 139.65px;
+    height: 19.34px;
+}
+
+@media only screen and ( max-width: 1200px) {
+    .seventh_section {
+        width: 100%;
+        height: 468px;
+        background: #382459;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .seventh_section_first_image {
+        margin-left: 44px;
+        margin-top: -80px;
+        width: 320.57px;
+        height: 320.57px;
+    }
+    .seventh_section_first_paragraph {
+        width: 295.68px;
+        height: 33.35px;
+        font-family: 'Oswald';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 24.7px;
+        line-height: 28px;
+        /* or 113% */
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+        /* bootcamps/CB-face */
+        color: #30FFCD;
+        margin-bottom: 44.3px;
+        margin-left: 32px;
+        margin-top: -80px;
+    }
+    .seventh_section_second_paragraph {
+        width: 235.86px;
+        height: 63.45px;
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 11px;
+        line-height: 16px;
+        /* or 145% */
+        /* main/Main white */
+        color: #FFFFFF;
+        margin-bottom: 40.25px;
+        margin-left: 32.14px;
+    }
+    .seventh_section_button {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding: 13.2857px 29.5238px;
+        width: 193.54px;
+        height: 40px;
+        background: #FF1DC0;
+        border-radius: 40px;
+        margin-bottom: 80px;
+        margin-left: 28px;
+    }
+    .seventh_section_third_paragraph {
+        width: 162.38px;
+        height: 17.71px;
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 15.0508px;
+        line-height: 18px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        color: #FFFFFF;
+    }
+    .seventh_section_second_div {
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    .eighth_section {
+        display: flex;
+        flex-direction: column;
+        justify-content: normal;
+        height: 363.75px;
+        align-items: center;
+    }
+    .first_footer_div {
+        display: flex;
+        flex-direction: row;
+        margin-top: 72px;
+        margin-left: 33px;
+        margin-right: 125.77px;
+    }
+    .footer_first_part_first_image {
+        width: 120px;
+        height: 27.45px;
+        margin-bottom: 32.55px;
+        margin-right: 22.21px;
+    }
+    .footer_first_part_second_image {
+        width: 19.02px;
+        height: 19.02px;
+    }
+    .second_footer_div {
+        margin-top: 0px;
+        margin-left: 32px;
+    }
+    .footer_first_p_teg {
+        width: 284px;
+        height: 47px;
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 11px;
+        line-height: 16px;
+        /* or 150% */
+        /* bootcamps/CB-hand */
+        color: #382459;
+        margin-bottom: 0px;
+    }
+    .footer_second_p_teg {
+        width: 284px;
+        height: 17px;
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 11px;
+        line-height: 16px;
+        /* identical to box height, or 150% */
+        /* bootcamps/CB-hand */
+        color: #382459;
+        margin-bottom: 0px;
+    }
+    .third_footer_div {
+        display: flex;
+        flex-direction: column;
+        margin-top: 0px;
+        margin-bottom: 52px;
+        margin-left: -164px;
+    }
+    .footer_third_part_first_image {
+        width: 96.48px;
+        height: 16px;
+        margin-bottom: 20.4px;
+        margin-left: 32.15px;
+        margin-top: 60.25px;
+    }
+    .footer_third_part_second_image {
+        width: 110.78px;
+        height: 15.34px;
+        margin-left: 25px;
+    }
+}
