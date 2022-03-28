@@ -1,0 +1,172 @@
+.fourth_section {
+    height: 640.66px;
+}
+
+.fourth_section .little_container {
+    height: 837.29px;
+    margin-left: 118.71px;
+    margin-top: 110px;
+}
+
+.fourth_section .little_container .header_p_teg {
+    width: 836px;
+    height: 50.02px;
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 47px;
+    line-height: 50px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #382459;
+    margin-bottom: 100.94px;
+}
+
+.fourth_section .little_container .flex_part {
+    display: flex;
+    justify-content: space-between;
+}
+
+.fourth_section .little_container .flex_part .first_div .first_p_teg {
+    width: 216px;
+    height: 64px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 32px;
+    color: #382459;
+    margin-bottom: 23.22px;
+}
+
+.fourth_section .little_container .flex_part .first_div .second_p_teg {
+    width: 269.29px;
+    height: 126.03px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #382459;
+    margin-right: 49.33px;
+}
+
+.fourth_section .little_container .flex_part .second_div .first_p_teg {
+    width: 319.33px;
+    height: 64px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 32px;
+    color: #382459;
+    margin-bottom: 23.22px;
+    margin-right: 62.71px;
+}
+
+.fourth_section .little_container .flex_part .second_div .second_p_teg {
+    width: 260.67px;
+    height: 126.03px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #382459;
+    margin-right: 121.38px;
+}
+
+.fourth_section .little_container .flex_part .third_div .first_p_teg {
+    width: 236.67px;
+    height: 65.25px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 32px;
+    color: #382459;
+    margin-bottom: 23.22px;
+    margin-right: 143.96px;
+}
+
+.fourth_section .little_container .flex_part .third_div .second_p_teg {
+    width: 260.67px;
+    height: 126.03px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #382459;
+    margin-right: 119.96px;
+}
+
+@media only screen and (max-width:1200px) {
+    .fourth_section {
+        height: 580px;
+        display: flex;
+        justify-content: center;
+    }
+    .fourth_section .little_container {
+        height: 445.01px;
+        margin-left: 32px;
+        margin-top: 78.99px;
+    }
+    .fourth_section .little_container .header_p_teg {
+        width: 272px;
+        height: 28px;
+        font-size: 24.7px;
+        line-height: 28px;
+        margin-bottom: 53.01px;
+    }
+    .fourth_section .little_container .flex_part {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+    }
+    .fourth_section .little_container .flex_part .first_div .first_p_teg {
+        width: 252px;
+        height: 41px;
+        font-size: 18px;
+        line-height: 20px;
+        margin-bottom: 12px;
+    }
+    .fourth_section .little_container .flex_part .first_div .second_p_teg {
+        width: 284px;
+        height: 68px;
+        font-size: 11px;
+        line-height: 16px;
+        margin-right: 4px;
+        margin-bottom: 28px;
+    }
+    .fourth_section .little_container .flex_part .second_div .first_p_teg {
+        width: 252px;
+        height: 20px;
+        font-size: 18px;
+        line-height: 20px;
+        margin-bottom: 36px;
+        margin-right: 36px;
+    }
+    .fourth_section .little_container .flex_part .second_div .second_p_teg {
+        width: 256px;
+        height: 48px;
+        font-size: 11px;
+        line-height: 16px;
+        margin-right: 32px;
+    }
+    .fourth_section .little_container .flex_part .third_div .first_p_teg {
+        width: 252px;
+        height: 20px;
+        font-size: 18px;
+        line-height: 20px;
+        margin-bottom: 12px;
+        margin-right: 36px;
+    }
+    .fourth_section .little_container .flex_part .third_div .second_p_teg {
+        width: 284px;
+        height: 68px;
+        font-size: 11px;
+        line-height: 16px;
+        margin-right: 4px;
+    }
+}
