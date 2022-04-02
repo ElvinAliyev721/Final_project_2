@@ -5,17 +5,268 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./assets/style.css">
+    <!-- //Elvin -->
+    <!--Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&family=Roboto:ital,wght@1,100&display=swap" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600&family=Oswald:wght@200;300;400;500;600;700&family=Roboto:ital,wght@1,100&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;1,100;1,200;1,300;1,400&family=Oswald:wght@200;300;400;500;600&display=swap"
+        rel="stylesheet">
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Counter-Up/1.0.0/jquery.counterup.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.js"></script>
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Elvin end -->
+    <link rel="stylesheet" href="./assets/index.css">
     <title>Document</title>
 </head>
 
 <body>
+    <div class="media_header_all_in_one">
+        <div class="taggler_for_media">
+            <div class="wrapper">
+                <button class="nav">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </div>
+        <div id="media_header"><img src="./assets/Photos/Алгоритмика LOGO-RU.png" alt=""></div>
+    </div>
+    <header id="header">
+        <div>
+            <div class="navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-na d-flex justify-content-around">
+                    <div class="first_side_nav">
+                        <a class="nav-item nav-link what-we-do " href="#what-we-do"><img
+                                src="./assets/Photos/Алгоритмика LOGO-RU.png" alt=""> </a>
+                        <a class="nav-item nav-link who-we-are" href="#who-we-are"><img src="./assets/Photos/Gerb.png"
+                                alt=""></a>
+                        <a class="nav-item nav-link jobs" href="#jobs"><img src="./assets/Photos/ADNSU.png" alt=""></a>
+                    </div>
+                    <div class="second_side_nav">
+                        <a class="nav-item nav-link news" href="#news"><img src="./assets/Photos/codeforfuture.png"
+                                alt=""></a>
+                        <a class="nav-item nav-link footer" href="#footer"><img
+                                src="./assets/Photos/+99 (470) 201-11-79.png" alt=""></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </header>
+
+    <section class="forSc section first d-flex align-items-center">
+        <div class="index_first show_me">
+            <div class="bg" style="background-color: #0C0D26"></div>
+            <div class="video_bg" style="background-image:url('./assets/Photos/Group\ 7838.png')">
+            </div>
+            <div class="info">
+                <div>
+                    <h1 id="telebe_kurs" data-aos="fade-up" class="telebe_kurslari">Tələbələr üçün <br> IT-kurslar</h1>
+                    <div data-aos="fade-up" class="text">
+                        <p>Web developer və Sistem Administratorluğu təhsilini vermək üçün Azərbaycan Dövlət Neft və
+                            Sənaye Universitetinin tələbələrini yığırıq. Tələb görən peşəyə bilet əldə etmək istərdinmi?
+                        </p>
+                    </div>
+                    <div class="scroll_link">
+                        <div>
+                            <a href="#" class="scroll_down">
+                                <span>BAŞLAYIR – 14 FEVRALDA</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <section class="second-section">
+
+        <p class="intro-text-mobile">NƏ ƏLDƏ EDƏCƏKSƏN?</p>
+
+        <div class="intro-part">
+            <p class="intro-text">NƏ ƏLDƏ EDƏCƏKSƏN?</p>
+            <button>Anketi doldurun</button>
+        </div>
+
+        <div class="info-part">
+            <div class="info-left">
+                <img class="rocket" src="./assets/img/rocket.png" alt="rocket">
+                <p class="left-head">Junior səviyyəsində <br>IT peşə</p>
+                <p class="left-main">Sənin üçün əlavə bir IT peşəsi. Proqramı <br>bitirdikdən sonra kursun ixtisası üzrə
+                    işə <br>düzəlməyin üçün kifayət edəcək hard və <br>soft bacarıqların olacaqdır.</p>
+            </div>
+
+
+            <div class="info-right">
+                <img class="graduate" src="./assets/img/graduate.png" alt="graduate">
+                <p class="right-head">Universitetdəki profil fənlər <br>üzrə məqbul qiymət</p>
+                <p class="right-main">Kursun müvəffəqiyyətlə başa vurulması <br>istehsalat təcrübəsinin keçirilməsi kimi
+                    <br>yaxud ikinci semestr proqramının profil <br>fənləri kimi qəbul ediləcəkdir.
+                </p>
+            </div>
+        </div>
+
+        <button class="button-mobile">Anketi doldurun</button>
+    </section>
+
+    <section class="third-section">
+        <div class="third-container">
+            <div class="leftside">
+
+                <div class="leftside1">
+                    <p class="numbers">19,1%</p>
+                    <p class="about-numbers1 about-nums-default">Azərbaycandakı vakansiyaların <br>ümumi sayının
+                        19,1%-ni IT təşkil <br>edir, bu isə digər sahələrdən çoxdur</p>
+                    <p class="about-little">Az.trud.com saytının məlumatlarına əsasən</p>
+                </div>
+
+                <div class="leftside2">
+                    <p class="numbers">600 AZN</p>
+                    <p class="about-numbers2 about-nums-default">Bir layihə üçün sistem administratoruna orta
+                        <br>hesabla 600 AZN ödənir. Bununla yanaşı eyni <br>zamanda 4 layihənin işini görmək olar
+                    </p>
+                    <p class="about-little">Habr.com-un araşdırmalarına əsasən</p>
+                </div>
+
+            </div>
+
+
+            <div class="rightside">
+
+                <div class="rightside1">
+                    <p class="numbers">+26%</p>
+                    <p class="about-numbers3 about-nums-default">2021-ci ilin yanvar ayından etibarən <br>IT sahəsində
+                        vakansiyaların sayı <br>26% artmışdır</p>
+                    <p class="about-little">Hh. Indeksinin məlumatlarına əsasən</p>
+                </div>
+
+                <div class="rightside2">
+                    <p class="numbers">1200 AZN</p>
+                    <p class="about-numbers4 about-nums-default">Paytaxtda kvalifikasiyalı veb proqramçının <br>orta
+                        aylıq maaşı 1200 AZN təşkil edir</p>
+                    <p class="about-little">Habr.com-un araşdırmalarına əsasən</p>
+                </div>
+
+
+            </div>
+        </div>
+
+    </section>
+
+    <img class="triangle-and-ball" src="./assets/img/triangle-and-ball.png" alt="img">
+
+    <section class="fourth_section">
+        <div class="little_container">
+            <div class="header_div">
+                <p class="header_p_teg">TƏDRİS NECƏ KEÇƏCƏK?</p>
+            </div>
+            <div class="flex_part">
+                <div class="first_div">
+                    <p class="first_p_teg">İnkişaf<br>Hard-skills</p>
+                    <p class="second_p_teg">Mühazirələr, təcrübə, məsələ və keyslərin həlli. Hamısı ofline formatda Neft
+                        və Sənaye Universitetinin meydançasında. Öz real təcrübəsini bölüşəcək təcrübə müəllimi ilə
+                        çiyin-çiyinə.</p>
+                </div>
+                <div class="second_div">
+                    <p class="first_p_teg">Soft-skills və işədüzəlməyə hazırlıq</p>
+                    <p class="second_p_teg">Treninqlər və master-klaslar, müsahibələrə hazırlıq. Çox qiymətli
+                        kommunikasiya təcrübəsi və IT sahəsinə uyğunlaşma.</p>
+                </div>
+                <div class="third_div">
+                    <p class="first_p_teg">Dəstək və motivasiya</p>
+                    <p class="second_p_teg">Sən hər gün sənin kimi yeni peşəyə can atan insanlarla birgə mühitdə təhsil
+                        alacaqsan. Burada qalib və məğlub yoxdur, daha çox bilmək və bacarmaq arzusu vardır.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="fifth_section">
+        <div class="container_fifth">
+            <div class="system_admin">
+                <p class="fifth_head">SİSTEM ADMİNİSTRAORU</p>
+                <p class="fifth_text system_text">Proqram və aparat təminatının quraşdırılması,
+                    yığılması və xidməti üzrə bütün baza məsələlərinin həlli üçün biliklər əldə edəcəksən.
+                    <br><br>
+
+                    Həftədə 5-6 gün, hər gün 3 saat olmaqla məşğələlər
+                    <br><br>
+                    Fərdi müştərilərin və kiçik biznesin məsələləri ilə işləməyi öyrənəcəksən
+                    <br><br>
+                    Sən junior-sistem administratoru kimi işləyə biləcəksən
+                </p>
+                <button class="fifth_button">Kursun proqramı</button>
+            </div>
+            <div class="web_dev margin_web">
+                <p class="fifth_head">Web developer</p>
+                <p class="fifth_text web_text">Aşağıdakı texnologiyaların stekini praktiki olaraq mənimsəyəcəksən:
+                    HTML, CSS, JavaScript, React, NodeJS, MySQL, Git.
+                    <br><br>
+                    Həftədə 5 gün, hər gün 4 saat olmaqla məşğələlər.
+                    <br><br>
+                    Portfolioda 5 şəxsi layihə.
+                    <br><br>
+                    Sən junior-frontend dizayner kimi işləyə biləcəksən.
+                </p>
+                <button class="fifth_button">Kursun proqramı</button>
+            </div>
+        </div>
+        <div class="mobile_container_fifth">
+            <div class="category_mobile">
+                <p class="head_text_mobile_fifth">Kurs seçin</p>
+
+                <select id="options_course" class="options_mobile">
+                    <option value="">SİSTEM ADMİNİSTRAORU</option>
+                    <option value="">Web developer</option>
+                </select>
+            </div>
+            <div class="about_course_mobile">
+                <p class="about_text_mobile">
+                    <img src="./assets/Photos/starmobile.svg" alt="#"> Proqram və aparat təminatının quraşdırılması,
+                    yığılması və xidməti üzrə bütün baza məsələlərinin həlli üçün biliklər əldə edəcəksən.
+                    <br><br>
+
+                    <img src="./assets/Photos/starmobile.svg" alt="#"> Həftədə 5-6 gün, hər gün 3 saat olmaqla
+                    məşğələlər
+                    <br><br>
+                    <img src="./assets/Photos/starmobile.svg" alt="#"> Fərdi müştərilərin və kiçik biznesin məsələləri
+                    ilə işləməyi öyrənəcəksən
+                    <br><br>
+                    <img src="./assets/Photos/starmobile.svg" alt="#"> Sən junior-sistem administratoru kimi işləyə
+                    biləcəksən
+                </p>
+
+                <button class="fifth_button_mobile">Kursun proqramı</button>
+            </div>
+
+
+        </div>
+
+
+    </section>
+
+    <section class="sixth_section">
+        <div class="container_sixth">
+            <div class="head_and_text">
+                <p class="head">İŞTİRAK ÜÇÜN ŞƏRTLƏR</p>
+                <p class="text">Əgər sən Azərbaycan Dövlət Neft və Sənaye Universitetinin tələbəsisənsə,
+                    təhsil almaq üçün ərizə ilə müraciət edə bilərsən.
+                    3 vəya 4-cü kurslarda oxuyursan.</p>
+            </div>
+            <div class="image_man">
+                <img src="./assets/Photos/6th_man.png" alt="#" class="img_man">
+            </div>
+        </div>
+
+
+    </section>
+
     <section class="seventh_section">
         <div>
             <img class="seventh_section_first_image" src="./assets/image/Group 1810 (2).svg" alt="">
@@ -26,7 +277,8 @@
             </div>
             <div>
                 <p class="seventh_section_second_paragraph">
-                    Müraciətləriniz yoxlanılacaq, əgər uyğun olarsa bu zaman Sizi müsahibəyə dəvət edəcəyik. Müsahibədən uğurla keçən 300 tələbə kursa vəsiqə qazana biləcək.
+                    Müraciətləriniz yoxlanılacaq, əgər uyğun olarsa bu zaman Sizi müsahibəyə dəvət edəcəyik. Müsahibədən
+                    uğurla keçən 300 tələbə kursa vəsiqə qazana biləcək.
                 </p>
             </div>
             <div>
