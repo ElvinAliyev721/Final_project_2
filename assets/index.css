@@ -344,7 +344,9 @@ html {
     border-bottom: 2px dashed #FFE920;
     pointer-events: none;
 }
-
+.category_mobile{
+    display: none;
+}
 @media (min-width: 480px) and (max-width: 767px) {
     .index_first {
         height: auto;
@@ -1664,6 +1666,9 @@ html {
         font-weight: 500;
         font-size: 11px;
         line-height: 16px;
+    }
+    .category_mobile{
+        display: block;
     }
 
     /*sixth_section*/
